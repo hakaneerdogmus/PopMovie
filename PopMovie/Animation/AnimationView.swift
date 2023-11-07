@@ -32,7 +32,7 @@ class AnimationView: UIViewController {
 
 extension AnimationView: AnimationViewProtocol {
     func configureAnimation() {
-        animation.animation = LottieAnimation.named("animation")
+        animation.animation = LottieAnimation.named("movie")
         //animation.frame = CGRect(x:20, y:50 , width: 100, height: 100)
         animation.frame = view.bounds
         animation.backgroundColor = .systemBackground
